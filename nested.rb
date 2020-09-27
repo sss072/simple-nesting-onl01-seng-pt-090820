@@ -42,7 +42,7 @@ programmer_hash[:alan_kay][:known_for]
 end
 
 def dennis_ritchies_language
-	programmer_hash[:dennis_ritchie]
+	
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -58,6 +58,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+programmer_hash[:dennis_ritchie][:languages].join
 end
 
 def adding_matz
